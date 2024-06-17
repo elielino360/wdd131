@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Yanone+Kaffeesatz&display=swap');
+
+body {
+    font-family: 'Mooli', sans-serif;
+}
+
+header h1 {
+    background-color: aliceblue;
+    font-size: 40px;
+    height: 100px;
+    align-items: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: gainsboro;
+    height: 65px;
+    align-items: center;
+    margin-top: -27px;
+}
+
+nav a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    display: grid;
+    margin-top: 2%;
+    align-content: center;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: 10% 1fr 15% 1fr;
+    grid-template-areas:
+        "card1 card1 card1 card1 card7"
+        "card2 card2 card3 . card8"
+        ". card4 card4 . card8"
+        "card6 card5 card5 . .";
+    gap: 20px;
+}
+
+.card1 {
+    grid-area: card1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    background-color: brown;
+    color: aliceblue;
+    
+}
+
+.card2 {
+    grid-area: card2;
+    padding: 20px;
+    font-size: 20px;
+    border-style: outset;
+}
+
+.card3 {
+    grid-area: card3;
+    padding: 20px;
+}
+
+.card3 img {
+    max-width: 100%;
+    height: auto;
+    border-style: outset;
+
+}
+
+.card4 {
+    grid-area: card4;
+    padding: 20px;
+    
+}
+
+.card5 {
+    grid-area: card5;
+    padding: 20px;
+    border-style: outset;
+
+}
+
+.card6 {
+    grid-area: card6;
+    padding: 20px;
+}
+
+.card6 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card7 {
+    grid-area: card7;
+    background-color: brown;
+    color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.card8 {
+    grid-area: card8;
+    padding: 20px;
+}
+
+.card8 a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-style: outset;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: gainsboro;
+    margin-top: 20px;
+}
