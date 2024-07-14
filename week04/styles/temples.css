@@ -1,0 +1,153 @@
+:root {
+    --primary-color: #0f5b91;
+    --secondary-color: #523fe9;
+    --accent1-color: #079767;
+    --accent2-color: #ffffff;
+    --heading-font: 'Roboto Serif', serif;
+    --paragraph-font: sans-serif;
+    --nav-background-color: #d7d7db;
+    --nav-link-color: #1e1f1f;
+    --nav-hover-link-color: #9286f4;
+    --nav-2-hover-link-color: #d1a4d1;
+}
+
+body {
+    max-width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin: 2px;
+    padding: 0;
+    border: 1.5px solid black;
+}
+
+header {
+    background-color: #060410;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    color: var(--accent2-color);
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 1rem 0 0 1rem;
+    margin: 0 0 1rem 0;
+}
+
+#menu {
+    display: block;
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 0 1.5rem 0 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #060410;
+}
+
+#menu::before {
+    content: "≡";
+    color: #f4f3fc;
+}
+
+#menu:hover {
+    color: var(--nav-2-hover-link-color);
+}
+
+.navigation {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+}
+
+.navigation.show {
+    display: flex;
+}
+
+.navigation li {
+    display: block;
+}
+
+.navigation a {
+    display: block;
+    text-decoration: none;
+    color: var(--accent2-color);
+    text-align: center;
+    padding: .75rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.navigation a:hover {
+    color: var(--nav-2-hover-link-color);
+}
+
+#menu.show::before {
+    content: "X";
+    font-size: 2rem;
+    padding: 1.2rem 1.5rem;
+}
+
+h1.show {
+    display: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.content-wrapper {
+    padding: 0;
+    gap: 0;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: x-large;
+    color: var(--primary-color);
+    padding: 3rem 0 .5rem 0;
+    margin: 0;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px; 
+}
+
+.image-grid section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px; 
+}
+
+.temple-img {
+    width: 80%;
+    height: auto;
+}
+
+.temple-name, .temple-location, .temple-area, .temple-dedication {
+    font-family: var(--paragraph-font);
+    color: var(--nav-link-color);
+    text-align: center;
+}
+
+footer {
+    background-color: #060410;
+    color: var(--accent2-color);
+    padding: .1rem;
+}
+
+footer p {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+}

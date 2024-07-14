@@ -1,0 +1,95 @@
+@media (min-width: 740px) {
+
+    body {
+        max-width: 100%;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header {
+        background-color: #4b0517;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    h1 {
+        text-align: left;
+        padding: 0 0 0 1rem;
+        margin: 0;
+    }
+
+    #menu {
+        display: none;
+        background-color: #060410;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        padding: .5rem 2rem .5rem 0;
+        margin: 0;
+    }
+
+    .navigation li {
+        display: flex;
+    }
+
+    main {
+        padding: 0;
+        gap: 0;
+        margin: 0;
+    }
+
+    h2 {
+        padding: 3rem 0 1.5rem 0;
+        margin: 0;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        
+
+    }
+    .image-grid section {
+        background-color: white; 
+        padding: 10px; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        background-color: antiquewhite;
+        
+    
+    
+    }
+
+    .temple-name, .temple-location, .temple-area, .temple-dedication {
+        margin: 0;
+        padding-bottom: .75rem;
+    }
+
+    .temple-img {
+        height: 15vw;
+        padding: 0 .5rem 0 .5rem;
+        
+        
+     
+        
+
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+
+}
