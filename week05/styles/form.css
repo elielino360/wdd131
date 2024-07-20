@@ -1,0 +1,125 @@
+body {
+    font-size: 16px;
+
+}
+h1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(68, 7, 126);
+    width: 100%;
+    color: #fff;
+}
+.form fieldset{
+    
+    margin: 2rem 0;
+    border: 1px solid blue;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.form legend {
+    color: blue;
+    padding: 0 5rem;
+}
+
+.form label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 18px;
+    
+    
+    
+}
+
+.form input[type="radio"] {
+    display: none;
+    position: relative;
+    caret-color: rgba(0, 0, 0, 0);
+}
+
+.stars {
+    margin-top: -2%;
+    display: flex;
+    justify-content: flex-start
+    
+}
+
+.stars > label {
+    color: gold;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stars > label:hover,
+.stars > label:hover ~ label {
+    color: #000;
+}
+
+.stars > label::before {
+    content: "\2606";
+}
+
+.stars input:checked ~ label::before,
+.stars input:checked ~ label ~ label::before {
+    content: "\2605"; 
+}
+
+.form div {
+    padding-top: 1rem;
+    color: blue;
+    font-size: 18px;
+    padding-bottom: 3px;
+}
+.form input[type="date"],
+.form input[type="text"],
+.form select,
+.form textarea {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 30px;
+
+}
+
+.form textarea {
+    height: 200px;
+}
+
+.form input[type="checkbox"]
+{
+    margin-right: 6px;
+}
+
+.form input[type="submit" ]
+{
+    border: none;
+    background-color: rgb(9, 9, 158);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px aquamarine;
+    font-size: 16px;
+}
+
+footer {
+    background-color: rgb(68, 7, 126);
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+
+
+
+
