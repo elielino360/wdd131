@@ -73,7 +73,31 @@ const temples = [
         dedicated: "1983-12-02",
         area: 116642,
         imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+    },
+    {
+        templeName: "Adelaide Australia",
+        location: "Adelaide, Australia",
+        dedicated: "2001-06-15",
+        area: 116642,
+        imageUrl:"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/adelaide-australia/800x500/adelaide-australia-temple-lds-675332-wallpaper.jpg"
+
+    },
+    {
+        templeName: "Belém Brazil",
+        location: "Belém, Para, Brazil",
+        dedicated: "2002-11-22",
+        area: 12300,
+        imageUrl:"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/belem-brazil/800x500/belem_brazil_temple_exterior2.jpg"
+
+    },
+    {
+        templeName: "Asunción Paraguay",
+        location: "Asunción, Alto Paraguay, Paraguay",
+        dedicated: "2002-05-19",
+        area: 42355,
+        imageUrl:"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/asuncion-paraguay/800x500/2-5b20486ae3876279c35be147ef9e63aec256a459.jpeg"
     }
+
 ];
 
 function createTempleCard(filterFn) {
