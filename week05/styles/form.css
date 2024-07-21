@@ -1,9 +1,8 @@
 body {
     font-size: 16px;
-
 }
+
 h1 {
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,8 +11,8 @@ h1 {
     width: 100%;
     color: #fff;
 }
-.form fieldset{
-    
+
+.form fieldset {
     margin: 2rem 0;
     border: 1px solid blue;
     border-radius: 6px;
@@ -29,9 +28,6 @@ h1 {
     display: block;
     padding-top: 1rem;
     font-size: 18px;
-    
-    
-    
 }
 
 .form input[type="radio"] {
@@ -43,8 +39,7 @@ h1 {
 .stars {
     margin-top: -2%;
     display: flex;
-    justify-content: flex-start
-    
+    justify-content: flex-start;
 }
 
 .stars > label {
@@ -78,6 +73,7 @@ h1 {
     font-size: 18px;
     padding-bottom: 3px;
 }
+
 .form input[type="date"],
 .form input[type="text"],
 .form select,
@@ -86,20 +82,17 @@ h1 {
     width: 100%;
     max-width: 400px;
     height: 30px;
-
 }
 
 .form textarea {
     height: 200px;
 }
 
-.form input[type="checkbox"]
-{
+.form input[type="checkbox"] {
     margin-right: 6px;
 }
 
-.form input[type="submit" ]
-{
+.form input[type="submit"] {
     border: none;
     background-color: rgb(9, 9, 158);
     color: #fff;
@@ -110,6 +103,7 @@ h1 {
     margin: -1rem 2% 2rem 2%;
     box-shadow: 1px 1px 4px aquamarine;
     font-size: 16px;
+    cursor: pointer;
 }
 
 footer {
@@ -119,7 +113,3 @@ footer {
     font-size: 1.2rem;
     color: aliceblue;
 }
-
-
-
-
