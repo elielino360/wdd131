@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="week05/scripts/form.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Page</title>
+  <link rel="stylesheet" href="week05/styles/form.css">
+  <script src="week05/scripts/review.js" defer></script>
 </head>
 <body>
-    <h1>Thank You for Your Review!</h1>
-    <p>Your review has been submitted.</p>
-    <p>You have submitted <span id="reviewCounter">0</span> reviews.</p>
-    
+  <h1>Thank You for Your Review!</h1>
+  <p>Your review has been submitted.</p>
+  <p>You have submitted: <span id="reviews"></span> reviews.</p>
+  <footer>
+    <p>&copy; <span id="currentyear"></span> | Elijah Ebinum | Nigeria</p>
+    <p><span id="lastModified"></span></p>
+  </footer>
 </body>
 </html>
