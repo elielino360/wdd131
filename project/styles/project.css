@@ -179,13 +179,14 @@ picture {
 
 }
  footer{
-    display: flex;
+
     background-color: var(--secondary-color);
-    align-items: center;
     height: 120px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
  }
-
-
 
  @media (min-width: 1000px) {
     .grid_section {
@@ -239,3 +240,5 @@ picture {
         padding: 0.5rem 0; 
     }
 }
+
+/* Css for the event page/*
