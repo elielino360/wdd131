@@ -1,0 +1,123 @@
+:root {
+
+    --primary-color: #2E8B57;
+    --secondary-color: #FFD700;
+    --primary-font:"montserrat",sans-serif;
+    --secondary-font:"roboto",serif;
+    --accent-font: "pacifico",serif;
+
+}
+h1,h2,h3,h4 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+}
+body {
+    margin: 5px;
+}
+.hero {
+    background-color: rgba(0, 0, 0, 0.651);
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-bottom: 5%;
+    
+    
+}
+.hero_img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider_text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+}
+.slider_text button:hover{
+    color: aliceblue;
+    text-decoration: wavy;
+    background-color: #2E8B57;
+    height: 5px;
+}
+
+.slider_text button {
+    font-size: 1rem;
+    color: aliceblue;
+    background-color: black;
+    height: 8px;
+    border: solid #2E8B57;
+    border-radius: 3px;
+}
+
+.grid_section{
+    display: block;
+    gap: 5px;
+}
+
+
+.main {
+    padding-left: 25%;
+    padding-right: 25%;
+    height: 50%;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--secondary-color);
+    
+
+}
+ footer{
+    display: flex;
+    background-color: var(--secondary-color);
+    align-items: center;
+    height: 120px;
+ }
+
+
+
+@media (min-width: 1000px){
+    .grid_section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 20px; 
+        padding: 20px;
+        margin-bottom: 5%; 
+    }
+    
+    .card {
+        background-color: var(--primary-color); 
+        border: 1px solid #ddd; 
+        padding: 20px; 
+        box-shadow: 0 2px 4px var(--secondary-color); 
+        font-size: 18px;
+        color: white;
+    }
+    
+    .card picture img {
+        max-width: 100%; 
+        height: auto; 
+        
+    }
+    
+    .card ul {
+        list-style-type: none; 
+        padding: 0; 
+    }
+    
+    .card ul li {
+        margin-bottom: 10px;
+    }
+    
+
+}
