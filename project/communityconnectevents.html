@@ -33,13 +33,18 @@
                 <picture>
                     <source srcset="images/hero_large.webp" media="(min-width: 1000px)" width="1500" height="750"> 
                     <source srcset="images/hero_medium.webp" media="(min-width:500px)" width="1000" height="500">
-                     <img src="images/hero_small.webp" alt="image of people playing" width="500" height="250">
+                     <img src="images/hero_small.webp" alt="image of people playing" width="500" height="250" loading="lazy">
                 </picture>
             </div>
             <div class="slider_text">
                 <h1>Welcome to Community Connect Events</h1>
                  <button>Join Us and Make a Difference in Your Community</button>
             </div>
+        </section>
+        <section class="search">
+            <h2>Search Events</h2>
+            <input type="text" id="search-bar" placeholder="Search for events...">
+            <div id="search-results"></div>
         </section>
         <section class="main">
             <p>Discover exciting events happening in your local community. Whether you're looking for family-friendly activities, volunteer opportunities, or cultural events, we've got something for everyone.

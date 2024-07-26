@@ -89,6 +89,38 @@ header h1  {
 h1.show {
     display: none;
 }
+.search h2{
+    margin-left: 40%;
+   margin-right: 40%;
+}
+#search-bar{
+   margin-left: 25%;
+   margin-right: 25%;
+   color: var(--primary-color);
+
+}
+input#search-bar {
+    width: 50%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+}
+
+
+
+#search-results .event {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#search-results .event h3 {
+    margin-top: 0;
+}
 
 .hero {
     background-color: rgba(0, 0, 0, 0.651);
