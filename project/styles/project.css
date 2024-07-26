@@ -58,9 +58,11 @@ header h1  {
 }
 .navigation.show {
     display: flex;
+    background-color: #2E8B57;
 }
 .navigation li {
     display: block;
+    z-index: 4;
 }
 .navigation a {
     display: block;
