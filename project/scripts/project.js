@@ -38,7 +38,19 @@ document.addEventListener("DOMContentLoaded", () => {
             location: "Art Gallery",
             description: "Showcasing art from local artists."
         },
-        // Add more events as needed
+        {
+            title:"Music Showcase",
+            date: "2024-10-05",
+            Location:"City Palace",
+            description:"showcasing Musical Talents"
+
+        },
+        {
+            title:"picture exhibition",
+            date:"2024-10-18",
+            location: "Art Gallery",
+            description:"descover the power of image technologie"
+        }
     ];
 
     const searchBar = document.getElementById("search-bar");
